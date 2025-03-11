@@ -1,0 +1,619 @@
+@media screen and (max-width: 600600px) {}
+
+@media screen and (min-width: 2000px) {
+
+
+    /* Размещение колонок */
+    .home-about-us-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 60px 0;
+    }
+
+    .home-about-us-content-column {
+        flex: 1;
+        padding-right: 30px;
+        order: 2;
+        /* Текущий элемент будет отображаться вторым */
+    }
+
+    .home-about-us-image-column {
+        flex: 1;
+        padding-left: 30px;
+        order: 1;
+        /* Этот элемент будет первым */
+    }
+
+    /* Ссылки */
+    .home-about-us-a,
+    .home-about-us-a:hover,
+    .home-about-us-a:focus,
+    .home-about-us-a:active {
+        text-decoration: none;
+        outline: none;
+    }
+
+    .home-about-us-a,
+    .home-about-us-a:active,
+    .home-about-us-a:focus {
+        color: #6f6f6f;
+        text-decoration: none;
+        transition-timing-function: ease-in-out;
+        -ms-transition-timing-function: ease-in-out;
+        -moz-transition-timing-function: ease-in-out;
+        -webkit-transition-timing-function: ease-in-out;
+        -o-transition-timing-function: ease-in-out;
+        transition-duration: .2s;
+        -ms-transition-duration: .2s;
+        -moz-transition-duration: .2s;
+        -webkit-transition-duration: .2s;
+        -o-transition-duration: .2s;
+    }
+
+    /* Списки (заменяем иконки на изображения) */
+    .home-about-us-ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .home-about-us-list-style-one {
+        padding: 0;
+    }
+
+    .home-about-us-list-style-one li {
+        position: relative;
+        font-size: 16px;
+        line-height: 26px;
+        color: #222222;
+        font-weight: 400;
+        padding-left: 0;
+        margin-bottom: 12px;
+        display: flex;
+        align-items: center;
+    }
+
+    .home-about-us-list-style-one li img {
+        width: 18px;
+        /* Размер иконки */
+        height: 18px;
+        /* Размер иконки */
+        margin-right: 10px;
+        /* Отступ между иконкой и текстом */
+    }
+
+    .home-about-us-list-style-one li a:hover {
+        color: #44bce2;
+    }
+
+    /* Изображения */
+    .home-about-us-img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+
+    /* Заголовки */
+    .home-about-us-sec-title {
+        position: relative;
+        z-index: 1;
+        margin-bottom: 60px;
+    }
+
+    .home-about-us-sec-title .home-about-us-title {
+        position: relative;
+        display: block;
+        font-size: 18px;
+        line-height: 24px;
+        color: #ff2222;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+
+    .home-about-us-sec-title h2 {
+        position: relative;
+        display: block;
+        font-size: 40px;
+        line-height: 1.28em;
+        color: #222222;
+        font-weight: 600;
+        padding-bottom: 18px;
+    }
+
+    .home-about-us-sec-title h2:before {
+        position: absolute;
+        content: '';
+        left: 0px;
+        bottom: 0px;
+        width: 50px;
+        height: 3px;
+        background-color: #d1d2d6;
+    }
+
+    .home-about-us-sec-title .home-about-us-text {
+        position: relative;
+        font-size: 16px;
+        line-height: 26px;
+        color: #848484;
+        font-weight: 400;
+        margin-top: 35px;
+    }
+
+    /* Стили кнопок */
+    .home-about-us-btn-box {
+        position: relative;
+    }
+
+    .home-about-us-btn-box a {
+        padding: 15px 50px;
+    }
+
+    .home-about-us-theme-btn {
+        position: relative;
+        display: inline-block;
+        font-size: 17px;
+        line-height: 30px;
+        color: #ffffff;
+        padding: 10px 30px;
+        font-weight: 600;
+        overflow: hidden;
+        letter-spacing: 0.02em;
+        background-color: #d33434;
+        transition: 1s;
+    }
+
+    .home-about-us-theme-btn:hover {
+        background-color: #242943;
+        color: #ffffff;
+        transition: 1s;
+
+    }
+
+    /* Секция "About Us" */
+    .home-about-us-section {
+        position: relative;
+        padding: 5vh 0 70px;
+    }
+
+    .home-about-us-section .home-about-us-sec-title {
+        margin-bottom: 45px;
+    }
+
+    .home-about-us-section .home-about-us-content-column {
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    .home-about-us-section .home-about-us-content-column .home-about-us-inner-column {
+        position: relative;
+        padding-left: 30px;
+    }
+
+    .home-about-us-section .home-about-us-text {
+        margin-bottom: 40px;
+        font-size: 16px;
+        line-height: 26px;
+        color: #848484;
+        font-weight: 400;
+    }
+
+    .home-about-us-section .home-about-us-section .home-about-us-list-style-one {
+        margin-bottom: 45px;
+    }
+
+    /* Колонка с изображениями */
+    .home-about-us-section .home-about-us-image-column {
+        position: relative;
+    }
+
+    .home-about-us-section .home-about-us-image-column .home-about-us-text-layer {
+        position: absolute;
+        right: -110px;
+        top: 50%;
+        font-size: 325px;
+        line-height: 1em;
+        color: #ffffff;
+        margin-top: -175px;
+        font-weight: 500;
+    }
+
+    .home-about-us-section .home-about-us-image-column .home-about-us-inner-column {
+        position: relative;
+        padding-left: 120px;
+        padding-bottom: 125px;
+    }
+
+    .home-about-us-section .home-about-us-image-column .home-about-us-inner-column:before {
+        position: absolute;
+        left: -75px;
+        top: 65px;
+        height: 520px;
+        width: 100%;
+        background-image: url(../storages/home-about-us/about-circle.png);
+        content: "";
+    }
+
+    .home-about-us-section .home-about-us-image-column .home-about-us-image-1 {
+        position: relative;
+    }
+
+    .home-about-us-section .home-about-us-image-column .home-about-us-image-2 {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    .home-about-us-section .home-about-us-image-column .home-about-us-image-2 img,
+    .home-about-us-section .home-about-us-image-column .home-about-us-image-1 img {
+        box-shadow: 0 30px 50px rgba(8, 13, 62, .15);
+    }
+
+    .home-about-us-section .home-about-us-image-column .home-about-us-video-link {
+        position: absolute;
+        left: 70px;
+        top: 170px;
+    }
+
+    .home-about-us-section .home-about-us-image-column .home-about-us-video-link .link {
+        position: relative;
+        display: block;
+        font-size: 22px;
+        color: #191e34;
+        font-weight: 400;
+        text-align: center;
+        height: 100px;
+        width: 100px;
+        line-height: 100px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        box-shadow: 0 30px 50px rgba(8, 13, 62, .15);
+        -webkit-transition: all 300ms ease;
+        -moz-transition: all 300ms ease;
+        -ms-transition: all 300ms ease;
+        -o-transition: all 300ms ease;
+        transition: all 300ms ease;
+    }
+
+    .home-about-us-section .home-about-us-image-column .home-about-us-video-link .link:hover {
+        background-color: #191e34;
+        color: #fff;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 2000px) {
+
+    /* Размещение колонок */
+    .home-about-us-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 60px 0;
+    }
+
+    .home-about-us-content-column {
+        flex: 1;
+        padding-right: 30px;
+        order: 2;
+        /* Текущий элемент будет отображаться вторым */
+    }
+
+    .home-about-us-image-column {
+        flex: 1;
+        padding-left: 30px;
+        order: 1;
+        /* Этот элемент будет первым */
+    }
+
+    /* Ссылки */
+    .home-about-us-a,
+    .home-about-us-a:hover,
+    .home-about-us-a:focus,
+    .home-about-us-a:active {
+        text-decoration: none;
+        outline: none;
+    }
+
+    .home-about-us-a,
+    .home-about-us-a:active,
+    .home-about-us-a:focus {
+        color: #6f6f6f;
+        text-decoration: none;
+        transition-timing-function: ease-in-out;
+        -ms-transition-timing-function: ease-in-out;
+        -moz-transition-timing-function: ease-in-out;
+        -webkit-transition-timing-function: ease-in-out;
+        -o-transition-timing-function: ease-in-out;
+        transition-duration: .2s;
+        -ms-transition-duration: .2s;
+        -moz-transition-duration: .2s;
+        -webkit-transition-duration: .2s;
+        -o-transition-duration: .2s;
+    }
+
+    /* Списки (заменяем иконки на изображения) */
+    .home-about-us-ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .home-about-us-list-style-one {
+        padding: 0;
+    }
+
+    .home-about-us-list-style-one li {
+        position: relative;
+        font-size: 16px;
+        line-height: 26px;
+        color: #222222;
+        font-weight: 400;
+        padding-left: 0;
+        margin-bottom: 12px;
+        display: flex;
+        align-items: center;
+    }
+
+    .home-about-us-list-style-one li img {
+        width: 18px;
+        /* Размер иконки */
+        height: 18px;
+        /* Размер иконки */
+        margin-right: 10px;
+        /* Отступ между иконкой и текстом */
+    }
+
+    .home-about-us-list-style-one li a:hover {
+        color: #44bce2;
+    }
+
+    /* Изображения */
+    .home-about-us-img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+
+    /* Заголовки */
+    .home-about-us-sec-title {
+        position: relative;
+        z-index: 1;
+        margin-bottom: 60px;
+    }
+
+    .home-about-us-sec-title .home-about-us-title {
+        position: relative;
+        display: block;
+        font-size: 18px;
+        line-height: 24px;
+        color: #ff2222;
+        font-weight: 500;
+        margin-bottom: 15px;
+    }
+
+    .home-about-us-sec-title h2 {
+        position: relative;
+        display: block;
+        font-size: 40px;
+        line-height: 1.28em;
+        color: #222222;
+        font-weight: 600;
+        padding-bottom: 18px;
+    }
+
+    .home-about-us-sec-title h2:before {
+        position: absolute;
+        content: '';
+        left: 0px;
+        bottom: 0px;
+        width: 50px;
+        height: 3px;
+        background-color: #d1d2d6;
+    }
+
+    .home-about-us-sec-title .home-about-us-text {
+        position: relative;
+        font-size: 16px;
+        line-height: 26px;
+        color: #848484;
+        font-weight: 400;
+        margin-top: 35px;
+    }
+
+    /* Стили кнопок */
+    .home-about-us-btn-box {
+        position: relative;
+    }
+
+    .home-about-us-btn-box a {
+        padding: 15px 50px;
+    }
+
+    .home-about-us-theme-btn {
+        position: relative;
+        display: inline-block;
+        font-size: 17px;
+        line-height: 30px;
+        color: #ffffff;
+        padding: 10px 30px;
+        font-weight: 600;
+        overflow: hidden;
+        letter-spacing: 0.02em;
+        background-color: #d33434;
+        transition: 1s;
+    }
+
+    .home-about-us-theme-btn:hover {
+        background-color: #242943;
+        color: #ffffff;
+        transition: 1s;
+
+    }
+
+    /* Секция "About Us" */
+    .home-about-us-section {
+        position: relative;
+        padding: 5vh 0 70px;
+    }
+
+    .home-about-us-section .home-about-us-sec-title {
+        margin-bottom: 45px;
+    }
+
+    .home-about-us-section .home-about-us-content-column {
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    .home-about-us-section .home-about-us-content-column .home-about-us-inner-column {
+        position: relative;
+        padding-left: 30px;
+    }
+
+    .home-about-us-section .home-about-us-text {
+        margin-bottom: 40px;
+        font-size: 16px;
+        line-height: 26px;
+        color: #848484;
+        font-weight: 400;
+    }
+
+    .home-about-us-section .home-about-us-section .home-about-us-list-style-one {
+        margin-bottom: 45px;
+    }
+
+    /* Колонка с изображениями */
+    .home-about-us-section .home-about-us-image-column {
+        position: relative;
+    }
+
+    .home-about-us-section .home-about-us-image-column .home-about-us-text-layer {
+        position: absolute;
+        right: -110px;
+        top: 50%;
+        font-size: 325px;
+        line-height: 1em;
+        color: #ffffff;
+        margin-top: -175px;
+        font-weight: 500;
+    }
+
+    .home-about-us-section .home-about-us-image-column .home-about-us-inner-column {
+        position: relative;
+        padding-left: 120px;
+        padding-bottom: 125px;
+    }
+
+    .home-about-us-section .home-about-us-image-column .home-about-us-inner-column:before {
+        position: absolute;
+        left: -75px;
+        top: 65px;
+        height: 520px;
+        width: 100%;
+        background-image: url(../storages/home-about-us/about-circle.png);
+        content: "";
+    }
+
+    .home-about-us-section .home-about-us-image-column .home-about-us-image-1 {
+        position: relative;
+    }
+
+    .home-about-us-section .home-about-us-image-column .home-about-us-image-2 {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    .home-about-us-section .home-about-us-image-column .home-about-us-image-2 img,
+    .home-about-us-section .home-about-us-image-column .home-about-us-image-1 img {
+        box-shadow: 0 30px 50px rgba(8, 13, 62, .15);
+    }
+
+    .home-about-us-section .home-about-us-image-column .home-about-us-video-link {
+        position: absolute;
+        left: 70px;
+        top: 170px;
+    }
+
+    .home-about-us-section .home-about-us-image-column .home-about-us-video-link .link {
+        position: relative;
+        display: block;
+        font-size: 22px;
+        color: #191e34;
+        font-weight: 400;
+        text-align: center;
+        height: 100px;
+        width: 100px;
+        line-height: 100px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        box-shadow: 0 30px 50px rgba(8, 13, 62, .15);
+        -webkit-transition: all 300ms ease;
+        -moz-transition: all 300ms ease;
+        -ms-transition: all 300ms ease;
+        -o-transition: all 300ms ease;
+        transition: all 300ms ease;
+    }
+
+    .home-about-us-section .home-about-us-image-column .home-about-us-video-link .link:hover {
+        background-color: #191e34;
+        color: #fff;
+    }
+
+
+
+}
+
+@media screen and (max-width: 1800px) {}
+
+@media screen and (max-width: 1700px) {}
+
+@media screen and (max-width: 1600px) {}
+
+@media screen and (max-width: 1500px) {}
+
+@media screen and (max-width: 1400px) {}
+
+@media screen and (max-width: 1380px) {}
+
+@media screen and (max-width: 1300px) {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 1000px) {}
+
+@media screen and (max-width: 800px) {
+    .home-about-us-section .home-about-us-image-column .home-about-us-inner-column:before {
+        position: absolute;
+        left: -75px;
+        top: 0;
+        height: 520px;
+        width: 100%;
+        background-image: url(../storages/home-about-us/about-circle.png);
+        content: "";
+    }
+
+    .home-about-us-row {
+        display: block;
+    }
+
+    .home-about-us-section .home-about-us-image-column .home-about-us-inner-column {
+        position: relative;
+        padding-left: 40px;
+        padding-bottom: 160px;
+    }
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 500px) {}
+
+@media screen and (max-width: 400px) {}
+
+@media screen and (max-width: 360px) {}

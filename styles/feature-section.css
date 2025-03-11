@@ -1,0 +1,141 @@
+@media screen and (max-width: 600600px) {}
+
+@media screen and (min-width: 2000px) {}
+
+@media screen and (max-width: 2000px) {
+    .guarantee-section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 40px 0;
+        border-top: 2px solid #e0e0e0;
+        /* Граница сверху */
+        border-bottom: 2px solid #e0e0e0;
+        /* Граница снизу */
+        position: relative;
+        margin-top: 5vh;
+    }
+
+
+    .features-section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .guarantee-item {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+
+
+
+
+    .guarantee-icon {
+        width: 80px;
+        /* Регулируйте размер иконки */
+        height: auto;
+        margin-right: 10px;
+    }
+
+    .guarantee-text h4 {
+        font-size: 1.3em;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .guarantee-text p {
+        font-size: 0.8em;
+        color: #555;
+        margin-top: 5px;
+    }
+
+}
+
+@media screen and (max-width: 1800px) {}
+
+@media screen and (max-width: 1700px) {}
+
+@media screen and (max-width: 1600px) {}
+
+@media screen and (max-width: 1500px) {}
+
+@media screen and (max-width: 1400px) {}
+
+@media screen and (max-width: 1380px) {}
+
+@media screen and (max-width: 1300px) {}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 1000px) {}
+
+@media screen and (max-width: 800px) {
+    .guarantee-section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 40px 0;
+        border-top: 2px solid #e0e0e0;
+        /* Граница сверху */
+        border-bottom: 2px solid #e0e0e0;
+        /* Граница снизу */
+        position: relative;
+        margin-top: 5vh;
+    }
+
+
+    .features-section {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .guarantee-item {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: 25px 0;
+    }
+
+
+
+
+
+    .guarantee-icon {
+        width: 80px;
+        /* Регулируйте размер иконки */
+        height: auto;
+        margin-right: 10px;
+    }
+
+    .guarantee-text h4 {
+        font-size: 1.3em;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .guarantee-text p {
+        font-size: 0.8em;
+        color: #555;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 500px) {}
+
+@media screen and (max-width: 400px) {}
+
+@media screen and (max-width: 360px) {}

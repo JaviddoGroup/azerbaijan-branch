@@ -23,6 +23,14 @@
     <!-- Для Windows 10/11 (Tiles) -->
     <!-- <meta name="msapplication-TileColor" content="#ffffff"> -->
     <!-- <meta name="msapplication-TileImage" content="/mstile-150x150.png"> -->
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./styles/main-slyder.css">
+    <link rel="stylesheet" href="./styles/brand-slyder.css">
+    <link rel="stylesheet" href="./styles/feature-section.css">
+    <link rel="stylesheet" href="./styles/home-about-us.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+
 
 </head>
 
@@ -80,18 +88,21 @@
             <div class="page-wrapper">
                 <div class="nav-wrapper">
                     <nav class="navbar">
-                        <a href="#" class="nav-bar-logo-lonk"><img src="./storages/layout/hellper-logo.svg"
-                                class="nav-bar-logo" alt="Company Logo"></a>
-                        <div class="menu-toggle" id="mobile-menu">
-                            <span class="bar"></span>
-                            <span class="bar"></span>
-                            <span class="bar"></span>
+                        <div class="navigation-section-background">
+                            <a href="#" class="nav-bar-logo-lonk"><img src="./storages/layout/hellper-logo.svg"
+                                    class="nav-bar-logo" alt="Company Logo"></a>
+                            <div class="menu-toggle" id="mobile-menu">
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                            </div>
                         </div>
+
                         <ul class="nav no-search">
-                            <li class="nav-item"><a href="#">Haqqımızda</a></li>
+                            <li class="nav-item"><a href="./s/haqqimizda.html">Haqqımızda</a></li>
                             <li class="nav-item"><a href="#">Məhsullar</a></li>
                             <li class="nav-item"><a href="#">Mağazalarımız</a></li>
-                            <li class="nav-item"><a href="#">Avtoanatomiya</a></li>
+                            <li class="nav-item"><a href="#">Avtobloq</a></li>
                             <li class="nav-item"><a href="#">B2B</a></li>
                             <img src="./storages/layout/search.svg" id="search-icon" alt="Axtar">
                             <input class="search-input" type="text" placeholder="Axtar..">
@@ -135,6 +146,7 @@
                                     </a>
                                 </div>
                             </div>
+                            <li class="nav-item mobile-scope"></li>
                         </ul>
                     </nav>
                 </div>
@@ -143,10 +155,277 @@
         </div>
     </div>
 
+    <div class="home-page-slyder">
+        <div class="swiper mySwiper desktop-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-slider/desktop/first.jpg"
+                            alt="Slide 1"></a>
+                </div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-slider/desktop/second.jpg"
+                            alt="Slide 2"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-slider/desktop/third.jpg"
+                            alt="Slide 3"></a>
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+        </div>
 
-    <div class="test-section" style="height: 2000px; width: 10px;"></div>
+        <!-- Мобильный слайдер -->
+        <div class="swiper mySwiperMobile mobile-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-slider/mobile/mobile-first.png"
+                            alt="Mobile Slide 1"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-slider/mobile/mobile-second.png"
+                            alt="Mobile Slide 2"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-slider/mobile/mobile-third.png"
+                            alt="Mobile Slide 3"></a></div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <div class="brands-slyder">
+        <div class="swiper brandsSwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Mercedes-Benz.png"
+                            alt="Mercedes-Benz"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Toyota.png"
+                            alt="Isuzu"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Lexus.png"
+                            alt="Volkswagen"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Mazda.png"
+                            alt="Opel"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Subaru.png"
+                            alt="Toyota"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Infiniti.png"
+                            alt="Lexus"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Nissan.png"
+                            alt="Mitsubishi"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Suzuki.png"
+                            alt="Audi"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Mitsubishi.png"
+                            alt="Skoda"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Honda.png"
+                            alt="Seat"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Volkswagen.png"
+                            alt="Changan"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Audi.png"
+                            alt="Lifan"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Skoda.png"
+                            alt="Great Wall"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Seat.png"
+                            alt="Subaru"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/BMW.png"
+                            alt="Hongqi"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Land Rover.png"
+                            alt="Haval"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Hyundai.png"
+                            alt="BMW"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/KIA.png"
+                            alt="Iveco"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Fiat.png"
+                            alt="Renault"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Lancia.png"
+                            alt="Buick"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Alfa Romeo.png"
+                            alt="Chevrolet"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Chrysler.png"
+                            alt="Ford"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/JEEP.png"
+                            alt="Daf"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Citroen.png"
+                            alt="Nissan"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Chevrolet.png"
+                            alt="Hyundai"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Ford.png"
+                            alt="KIA"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Opel.png"
+                            alt="Setra"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Renault.png"
+                            alt="Volvo"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Buick.png"
+                            alt="Lada"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Vauxhall.png"
+                            alt="Mazda"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Changan.png"
+                            alt="MAN"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Great Wall.png"
+                            alt="Kamaz"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Hongqi.png"
+                            alt="Gaz"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Haval.png"
+                            alt="Infiniti"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Lifan.png"
+                            alt="Alfa Romeo"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Peugeot.png"
+                            alt="Fiat"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Saab.png"
+                            alt="Lancia"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/SsangYong.png"
+                            alt="Chrysler"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Dacia.png"
+                            alt="JEEP"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Daewoo.png"
+                            alt="Vauxhall"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/HOWO.png"
+                            alt="Honda"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/DAF.png"
+                            alt="SsangYong"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Volvo.png"
+                            alt="Dacia"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Isuzu.png"
+                            alt="Citroen"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Iveco.png"
+                            alt="Peugeot"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Lada.png"
+                            alt="Saab"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/MAN.png"
+                            alt="Suzuki"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Gaz.png"
+                            alt="Daewoo"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Kamaz.png"
+                            alt="HOWO"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Setra.png"
+                            alt="Shacman"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="./storages/home-page-brand-slider/Shacman.png"
+                            alt="Land Rover"></a></div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <section class="guarantee-section">
+        <div class="all-items-center">
+            <div class="features-section">
+                <div class="guarantee-item">
+                    <img src="./storages/features/Compatibility.svg" alt="Guarantee Icon 1" class="guarantee-icon">
+                    <div class="guarantee-text">
+                        <h4>Uyğunluğa</h4>
+                        <p>zəmanət verilir.</p>
+                    </div>
+                </div>
+
+                <div class="guarantee-item">
+                    <img src="./storages/features/Performance.svg" alt="Guarantee Icon 2" class="guarantee-icon">
+                    <div class="guarantee-text">
+                        <h4>Performansa</h4>
+                        <p>zəmanət verilir.</p>
+                    </div>
+                </div>
+
+                <div class="guarantee-item">
+                    <img src="./storages/features/Authenticity.svg" alt="Guarantee Icon 3" class="guarantee-icon">
+                    <div class="guarantee-text">
+                        <h4>Orijinalığa</h4>
+                        <p>zəmanət verilir.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <div class="all-items-center">
+        <section class="home-about-us-section">
+            <div class="home-about-us-container">
+                <div class="home-about-us-row">
+                    <div class="home-about-us-content-column col-lg-6 col-md-12 col-sm-12 order-2">
+                        <div class="home-about-us-inner-column">
+                            <div class="home-about-us-sec-title">
+                                <span class="home-about-us-title">About Company</span>
+                                <h2 class="home-about-us-h2">We are leader in <br>Industrial market Since 1992</h2>
+                            </div>
+                            <div class="home-about-us-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur.
+                                <a href="#" style="text-decoration: none; color: #d33434;">read more</a>
+                            </div>
+                            <ul class="home-about-us-list-style-one">
+                                <li><img class="home-about-us-icon" src="./storages/home-about-us/done.png" alt="icon">
+                                    Lorem
+                                    Ipsum is simply dummy text</li>
+                                <li><img class="home-about-us-icon" src="./storages/home-about-us/done.png" alt="icon">
+                                    Consectetur adipisicing elit</li>
+                                <li><img class="home-about-us-icon" src="./storages/home-about-us/done.png" alt="icon">
+                                    Sed do
+                                    eiusmod tempor incididunt</li>
+                            </ul>
+                            <div class="home-about-us-btn-box">
+                                <a href="#" class="home-about-us-theme-btn btn-style-one">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Image Column -->
+                    <div class="home-about-us-image-column col-lg-6 col-md-12 col-sm-12">
+                        <div class="home-about-us-inner-column wow fadeInLeft">
+                            <figure class="home-about-us-image-1"><a href="#" class="lightbox-image"
+                                    data-fancybox="images"><img class="home-about-us-img"
+                                        src="./storages/home-about-us/about-large.jpg" alt=""></a></figure>
+                            <figure class="home-about-us-image-2"><a href="#" class="lightbox-image"
+                                    data-fancybox="images"><img class="home-about-us-img"
+                                        src="./storages/home-about-us/about-small.jpg" alt=""></a></figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+
+
+
+
+    <footer>
+
+        <div class="footer">
+            <div class="all-items-center">
+
+                <div class="row">
+                    <a href="#"><img src="./storages/layout/facebook.svg" alt="facebook"></a>
+                    <a href="#"><img src="./storages/layout/linkedin.svg" alt="linkedin"></a>
+                    <a href="#"><img src="./storages/layout/instagram.svg" alt="instagram"></a>
+                </div>
+
+                <div class="row">
+                    <ul>
+                        <li><a href="#">Haqqımızda</a></li>
+                        <li><a href="#">Məhsullar</a></li>
+                        <li><a href="#">Mağazalarımız</a></li>
+                        <li><a href="#">Avtobloq</a></li>
+                        <li><a href="#">B2B</a></li>
+                    </ul>
+                </div>
+
+                <div class="row">
+                    Iden Copyright © 2021 Iden - All rights reserved || Designed By: Idrak
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- <div class="test-section" style="height: 2000px; width: 10px;"></div> -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./scripts/header.js" defer></script>
+    <script src="./scripts/main-slyder.js" defer></script>
+    <script src="./scripts/brand-slyder.js" defer></script>
+    <script src="./scripts/feature-section.js" defer></script>
+    <script src="./scripts/home-about-us.js" defer></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 </body>
 
